@@ -25,7 +25,7 @@ function App() {
     <div className="App">
       <h1>Read My IP!</h1>
 
-      <button onClick={() => speak({ text: ip })}>hi ho here we go</button>
+      <button id="button" onClick={() => speak({ text: ip })}>hi ho here we go</button>
       <h2>Your IP Address is</h2>
       <h4>{ip}</h4>
     </div>
